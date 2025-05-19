@@ -1,9 +1,6 @@
 import React from "react";
-import TrafficLight from "./TrafficLight"
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+import TrafficLight from "./TrafficLight"; // Misma carpeta, por eso "./"
 
-//create your first component
 const Home = () => {
   return (
     <div>
@@ -12,4 +9,5 @@ const Home = () => {
     </div>
   );
 };
+
 export default Home;
